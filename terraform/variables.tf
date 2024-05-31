@@ -1,5 +1,5 @@
 locals {
-  prefix = "3tier-project"
+  prefix = "pf-tcpip"
   env    = "dev"
   aws = {
     region = "us-east-1"
