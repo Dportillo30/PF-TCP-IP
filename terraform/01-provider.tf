@@ -10,5 +10,5 @@ terraform {
 provider "aws" {
   region = local.aws.region
   shared_credentials_files = ["~/.aws/credentials"]
-  profile = "terraform-dp"
+  profile = "default"
 }
